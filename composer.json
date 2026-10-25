@@ -1,0 +1,18 @@
+{
+    "name": "codehq-dk/my-dashboard-blackboard-widget",
+    "description": "Blackboard widget to be used in the CodeHq-dk Mydashboard project",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CodehqDk\\MyDashboardBlackboardWidget\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jesper Østergaard Jensen",
+            "email": "jesper@onlinelife.dk"
+        }
+    ],
+    "require": {}
+}
