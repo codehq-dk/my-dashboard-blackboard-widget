@@ -3,9 +3,10 @@
     "description": "Blackboard widget to be used in the CodeHq-dk Mydashboard project",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "CodehqDk\\MyDashboardBlackboardWidget\\": "src/"
+            "CodehqDk\\MyDashboard\\MyDashboardBlackboardWidget\\": "src/"
         }
     },
     "authors": [
@@ -14,5 +15,7 @@
             "email": "jesper@onlinelife.dk"
         }
     ],
-    "require": {}
+    "require": {
+        "codehq-dk/my-dashboard-interfaces": "*"
+    }
 }

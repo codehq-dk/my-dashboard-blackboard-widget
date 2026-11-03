@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "ESNext",
+        "jsx": "react",
+        "jsxFactory": "h",
+        "jsxFragmentFactory": "Fragment",
+        "target": "ESNext",
+        "outDir": "../assets/js",
+        "sourceMap": true,
+        "inlineSources": true,
+        "esModuleInterop": true,
+        "noImplicitThis": true,
+        "baseUrl": ".",
+        "paths": {
+            "typescript/*": ["*"]
+        },
+        "types": []
+    }
+}

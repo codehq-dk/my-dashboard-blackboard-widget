@@ -1,0 +1,1 @@
+import '../../../sass/Widgets/black-board-widget.scss';
