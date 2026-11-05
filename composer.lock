@@ -4,26 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "90cec5fefb0b12417f82a43948244ff9",
+    "content-hash": "44556dd15f39d21fb7ad38ddbd6c1b2a",
     "packages": [
         {
             "name": "codehq-dk/my-dashboard-interfaces",
-            "version": "dev-main",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codehq-dk/my-dashboard-interfaces.git",
-                "reference": "0f8de1fece147f711493a3aeea1d6eb69f74daca"
+                "reference": "77efb6ae3c5532e2d965a3e32ecaf1aaf0e9f413"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codehq-dk/my-dashboard-interfaces/zipball/0f8de1fece147f711493a3aeea1d6eb69f74daca",
-                "reference": "0f8de1fece147f711493a3aeea1d6eb69f74daca",
+                "url": "https://api.github.com/repos/codehq-dk/my-dashboard-interfaces/zipball/77efb6ae3c5532e2d965a3e32ecaf1aaf0e9f413",
+                "reference": "77efb6ae3c5532e2d965a3e32ecaf1aaf0e9f413",
                 "shasum": ""
             },
             "require": {
                 "psr/container": "^2.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -42,9 +41,9 @@
             "description": "Mydashboard interface package to be used when building a new widget",
             "support": {
                 "issues": "https://github.com/codehq-dk/my-dashboard-interfaces/issues",
-                "source": "https://github.com/codehq-dk/my-dashboard-interfaces/tree/main"
+                "source": "https://github.com/codehq-dk/my-dashboard-interfaces/tree/1.0.2"
             },
-            "time": "2026-11-03T21:28:44+00:00"
+            "time": "2026-11-05T18:26:54+00:00"
         },
         {
             "name": "psr/container",

@@ -1,6 +1,6 @@
 <?php
 
-use CodeHqDk\MyDashboard\Widget\Types\BlackBoard\View\BlackBoardWidgetView;
+use CodeHqDk\MyDashboard\Widget\BlackboardWidget\View\BlackBoardWidgetView;
 
 /** @var BlackBoardWidgetView $view */
 ?>

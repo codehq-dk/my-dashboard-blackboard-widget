@@ -1,10 +1,10 @@
 <?php
 
-namespace CodeHqDk\MyDashboard\Widget\Types\BlackBoard;
+namespace CodeHqDk\MyDashboard\Widget\BlackboardWidget;
 
-use CodeHqDk\MyDashboard\Widget\Settings\WidgetTypeSettings;
+use CodeHqDk\MyDashboard\Interfaces\WidgetTypeSettings;
 
-class BlackBoardSettings extends WidgetTypeSettings
+class BlackBoardSettings implements WidgetTypeSettings
 {
     private string $message = '';
 

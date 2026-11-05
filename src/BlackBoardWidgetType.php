@@ -1,8 +1,8 @@
 <?php
 
-namespace CodeHqDk\MyDashboard\Widget\Types\BlackBoard;
+namespace CodeHqDk\MyDashboard\Widget\BlackboardWidget;
 
-use CodeHqDk\MyDashboard\Widget\Type\WidgetType;
+use CodeHqDk\MyDashboard\Interfaces\WidgetType;
 
 class BlackBoardWidgetType implements WidgetType
 {

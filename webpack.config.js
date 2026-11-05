@@ -8,24 +8,7 @@ module.exports = (env, argv) => {
         target: 'web',
         devtool: argv.mode === 'production' ? false : 'eval-source-map',
         entry: {
-            'mydashboard-app': './MyDashboard.ts',
-            'widget-loader': './Dashboards/WidgetAsyncLoader.ts',
-            'dashboard-base': './Dashboards/DashboardsBase.ts',
-            'countdown-widget': './Widgets/CountdownWidget.ts',
-            'photo-widget': './Widgets/PhotoWidget.ts',
-            'ical-widget': './Widgets/IcalWidget.ts',
-            'rss-reader-widget': './Widgets/RssReaderWidget.ts',
-            'fyens-news-widget': './Widgets/FyensNewsWidget.ts',
-            'yr-weather-widget': './Widgets/YrWeatherWidget.ts',
-            'date-time-week-widget': './Widgets/DateTimeWeekWidget.ts',
-            'home-assistant-widget': './Widgets/HomeAssistantWidget.ts',
-            'dsb-trafic-info-widget': './Widgets/DsbTrafikInfoWidget.ts',
-            'radio-player-widget': './Widgets/RadioPlayerWidget.ts',
-            'birthdays-widget': './Widgets/BirthdaysWidget.ts',
-            'url-monitor-widget': './Widgets/UrlMonitorWidget.ts',
             'black-board-widget': './Widgets/BlackBoardWidget.ts',
-            'setup-pages': './SetupPages.ts',
-            'start-page': './StartPage.ts'
         },
 
         // specify the context directory for entry-points:

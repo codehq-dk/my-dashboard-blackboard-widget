@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "CodehqDk\\MyDashboard\\MyDashboardBlackboardWidget\\": "src/"
+            "CodeHqDk\\MyDashboard\\Widget\\BlackboardWidget\\": "src/"
         }
     },
     "authors": [
@@ -16,6 +16,6 @@
         }
     ],
     "require": {
-        "codehq-dk/my-dashboard-interfaces": "*"
+        "codehq-dk/my-dashboard-interfaces": "^1.0"
     }
 }

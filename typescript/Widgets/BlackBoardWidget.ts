@@ -1,1 +1,1 @@
-import '../../../sass/Widgets/black-board-widget.scss';
+import '../../sass/Widgets/black-board-widget.scss';
