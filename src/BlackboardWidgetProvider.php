@@ -27,4 +27,14 @@ class BlackboardWidgetProvider implements WidgetProvider
     {
         return BlackBoardWidgetFormView::class;
     }
+
+    public function returnComposerPackageVendorName(): string
+    {
+        return 'codehq-dk';
+    }
+
+    public function returnComposerPackageName(): string
+    {
+        return 'my-dashboard-blackboard-widget';
+    }
 }
