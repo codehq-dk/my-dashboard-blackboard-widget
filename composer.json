@@ -17,5 +17,8 @@
     ],
     "require": {
         "codehq-dk/my-dashboard-interfaces": "^1.0"
+    },
+    "require-dev": {
+        "codehq-dk/my-dashboard-widget-tester": "^1.0"
     }
 }

@@ -20,7 +20,7 @@ module.exports = (env, argv) => {
             filename: 'js/[name].[contenthash].js',
 
             // every file is emitted to an output path - in our example, that's "assets" in the package root
-            path: path.join(__dirname, './public/assets'),
+            path: path.join(__dirname, './public/assets/widgets/black-board'),
 
             // clean the output path before writing to it:
             clean: {
@@ -80,7 +80,7 @@ module.exports = (env, argv) => {
                 filename: 'css/[name].[contenthash].css',
             }),
             new WebpackManifestPlugin({
-                fileName: '../../manifest.json',
+                fileName: '../../../../manifest.json',
             })
         ]
     }
