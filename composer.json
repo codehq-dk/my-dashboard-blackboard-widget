@@ -3,7 +3,7 @@
     "description": "Blackboard widget to be used in the CodeHq-dk Mydashboard project",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "CodeHqDk\\MyDashboard\\Widget\\BlackboardWidget\\": "src/"

@@ -23,7 +23,7 @@ class BlackBoardWidgetType implements WidgetType
 
     public function getIcon(): string
     {
-        return '/images/widget-type/black-board-widget.svg';
+        return 'black-board-widget.svg';
     }
 
     public function requireAuth(): bool
