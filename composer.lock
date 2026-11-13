@@ -102,16 +102,16 @@
     "packages-dev": [
         {
             "name": "codehq-dk/my-dashboard-widget-tester",
-            "version": "1.0.1",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codehq-dk/my-dashboard-widget-tester.git",
-                "reference": "7863ffa2ac28229b39be45a090573c16e5dda948"
+                "reference": "888c3300dd54d169a82e7ffaf9526de00f543bc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codehq-dk/my-dashboard-widget-tester/zipball/7863ffa2ac28229b39be45a090573c16e5dda948",
-                "reference": "7863ffa2ac28229b39be45a090573c16e5dda948",
+                "url": "https://api.github.com/repos/codehq-dk/my-dashboard-widget-tester/zipball/888c3300dd54d169a82e7ffaf9526de00f543bc6",
+                "reference": "888c3300dd54d169a82e7ffaf9526de00f543bc6",
                 "shasum": ""
             },
             "require": {
@@ -145,9 +145,9 @@
             "description": "Mydashboard widget tester for development of new widgets",
             "support": {
                 "issues": "https://github.com/codehq-dk/my-dashboard-widget-tester/issues",
-                "source": "https://github.com/codehq-dk/my-dashboard-widget-tester/tree/1.0.1"
+                "source": "https://github.com/codehq-dk/my-dashboard-widget-tester/tree/1.0.3"
             },
-            "time": "2026-11-07T19:43:58+00:00"
+            "time": "2026-11-13T22:34:31+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -226,30 +226,31 @@
         },
         {
             "name": "laminas/laminas-httphandlerrunner",
-            "version": "2.14.0",
+            "version": "2.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-httphandlerrunner.git",
-                "reference": "14d5182a4ba180c998dfbba9d19f9a70337c02b4"
+                "reference": "459cf8e2cbf93abb582990f4243c31d42e965472"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/14d5182a4ba180c998dfbba9d19f9a70337c02b4",
-                "reference": "14d5182a4ba180c998dfbba9d19f9a70337c02b4",
+                "url": "https://api.github.com/repos/laminas/laminas-httphandlerrunner/zipball/459cf8e2cbf93abb582990f4243c31d42e965472",
+                "reference": "459cf8e2cbf93abb582990f4243c31d42e965472",
                 "shasum": ""
             },
             "require": {
-                "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0",
+                "php": "~8.3.0 || ~8.4.0 || ~8.5.0 || ~8.6.0",
                 "psr/http-message": "^1.0 || ^2.0",
                 "psr/http-message-implementation": "^1.0 || ^2.0",
                 "psr/http-server-handler": "^1.0"
             },
             "require-dev": {
+                "laminas/internal-tooling": "^1.2",
                 "laminas/laminas-coding-standard": "~3.1.0",
-                "laminas/laminas-diactoros": "^3.6.0",
-                "phpunit/phpunit": "^10.5.46",
-                "psalm/plugin-phpunit": "^0.19.5",
-                "vimeo/psalm": "^6.10.3"
+                "laminas/laminas-diactoros": "^3.10.0",
+                "phpunit/phpunit": "^10.5.66",
+                "psalm/plugin-phpunit": "^0.22.2",
+                "vimeo/psalm": "^6.20.11"
             },
             "type": "library",
             "extra": {
@@ -289,7 +290,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2026-09-21T10:14:52+00:00"
+            "time": "2026-11-12T14:06:40+00:00"
         },
         {
             "name": "laravel/serializable-closure",
